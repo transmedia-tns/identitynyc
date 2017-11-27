@@ -1,0 +1,66 @@
+h1 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-size:20px;
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+p {
+	text-align:center;
+	height:10px;
+	color:white;
+	font-size:50px;
+	background:black;
+}
+
+.kurt {
+	width:90%;
+	position:center;
+}
+
+img {
+	margin-top:20px;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color:black;
+  height:350px;
+}
+
+.image {
+	display: block;
+  width: 100%;
+  height: auto;
+  position:center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top:130px;
+  opacity: 1;
+}
