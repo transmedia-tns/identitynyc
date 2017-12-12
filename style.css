@@ -1,28 +1,42 @@
 h1 {
-	font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
 }
 
 h2 {
-	font-size:20px;
-	text-align:center;
-	font-family: 'Lora', serif;
+  font-size:20px;
+  text-align:center;
+  font-family: 'Lora', serif;
 }
 
 p {
-	text-align:center;
-	height:10px;
-	color:white;
-	font-size:50px;
-	background:black;
+  text-align:center;
+  height:10px;
+  color:white;
+  font-size:50px;
+  background:black;
 }
 
 .kurt {
-	width:90%;
-	position:center;
+  width:60%;
+  position:center;
+}
+
+.merey {
+  width:80%;
+}
+
+.tricia {
+  width:80%;
+}
+
+.ashlyn {
+  width:90%;
+  margin-top:45px;
 }
 
 img {
-	margin-top:20px;
+  margin-top:20px;
 }
 
 
@@ -30,11 +44,11 @@ img {
   position: relative;
   width: 100%;
   background-color:black;
-  height:350px;
+  height:390px;
 }
 
 .image {
-	display: block;
+  display: block;
   width: 100%;
   height: auto;
   position:center;
@@ -64,3 +78,19 @@ img {
   margin-top:130px;
   opacity: 1;
 }
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
