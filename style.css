@@ -20,19 +20,23 @@ p {
 .kurt {
   width:60%;
   position:center;
+  max-width:60%;
 }
 
 .merey {
   width:80%;
+  max-width:80%;
 }
 
 .tricia {
   width:80%;
+  max-width:80%;
 }
 
 .ashlyn {
   width:90%;
   margin-top:45px;
+  max-width:90%;
 }
 
 img {
@@ -44,7 +48,7 @@ img {
   position: relative;
   width: 100%;
   background-color:black;
-  height:390px;
+  height:500px;
 }
 
 .image {
