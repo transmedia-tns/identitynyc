@@ -5,6 +5,12 @@
   font-size:80px;
 }
 
+.subhead {
+  color:black;
+  margin-left:40px;
+  font-size:20px;
+}
+
 html {
   background: white;
 }
@@ -134,6 +140,11 @@ a:hover {
   text-align:center;
 }
 
+.ose {
+  font-size:12px;
+  text-align:justify;
+}
+
 .talia {
   width:90%;
 }
@@ -143,7 +154,7 @@ a:hover {
 }
 
 .ali {
-  font-size:6.5px;
+  font-size:6px;
   text-align:justify;
 }
 
