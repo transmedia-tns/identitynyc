@@ -1,86 +1,41 @@
+.title {
+  color:black;
+  margin-left:10px;
+  padding:20px;
+  font-size:80px;
+}
+
+html {
+  background: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-size:15px;
   text-align:center;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  margin-top:5px;
 }
 
 h2 {
+  color:white;
+  font-family: 'Poppins', sans-serif;
   font-size:20px;
-  text-align:center;
-  font-family: 'Lora', serif;
 }
 
 p {
-  text-align:center;
-  height:10px;
   color:white;
-  font-size:50px;
-  background:black;
-}
-
-.kurt {
-  width:60%;
-  position:center;
-  max-width:60%;
-}
-
-.merey {
-  width:80%;
-  max-width:80%;
-}
-
-.tricia {
-  width:80%;
-  max-width:80%;
-}
-
-.ashlyn {
-  width:90%;
-  margin-top:45px;
-  max-width:90%;
-}
-
-img {
-  margin-top:20px;
-}
-
-
-.container {
-  position: relative;
-  width: 100%;
-  background-color:black;
-  height:500px;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-  position:center;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .7s ease;
-  background-color: #000000;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  margin-top:130px;
-  opacity: 1;
+  text-align:left;
+  margin-left:20px;
+  margin-right:20px;
+  font-family: 'Poppins', sans-serif;
+  font-size:15px;
 }
 
 /* unvisited link */
@@ -98,3 +53,148 @@ a:hover {
   color: white;
 }
 
+.ashlyn {
+  width:100%;
+  text-align:center;
+}
+
+.shl {
+  text-align:justify;
+}
+
+.merey {
+  width:100%;
+  position:center;
+}
+
+.mer {
+  text-align:center;
+}
+
+.mere {
+  font-size:18px;
+}
+
+.ere {
+  font-size:12px;
+  text-align:justify;
+}
+
+.tyler {
+  width:100%;
+}
+
+.tyl {
+  text-align:center;
+}
+
+.kurt {
+  width:75%;
+}
+
+.kur {
+  text-align:center;
+}
+
+.kiran {
+  width:100%;
+}
+
+.kir {
+  text-align:center;
+}
+
+.julianna {
+  width:77%;
+}
+
+.jul {
+  text-align:center;
+}
+
+.uli {
+  font-size:11px;
+  text-align:justify;
+}
+
+.joseph {
+  width:100%;
+}
+
+.jo {
+  font-size:17px;
+}
+
+.jos {
+  text-align:center;
+}
+
+.talia {
+  width:90%;
+}
+
+.ali {
+  font-size:6.5px;
+  text-align:justify;
+}
+
+.tricia {
+  width:105%;
+}
+
+.ici {
+  font-size:12px;
+  text-align:justify;
+}
+
+.black {
+  width:100%;
+}
+
+.grey {
+  width:80%;
+}
+
+.um {
+  color:black;
+  font-size:23px;
+}
+
+.module {
+  position:relative;
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  margin:20px;
+}
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  border-radius:5px;
+  background-color:black;
+  text-align:center;
+}
+
+.module:hover .overlay {
+  opacity: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .module {
+    width: 300px;
+  }
+
+  .module {
+    margin-bottom:100px;
+  }
+
+}
